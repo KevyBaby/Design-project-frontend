@@ -12,7 +12,7 @@ export const LandingPage = () => {
     return (
         <React.Fragment>
             <div className="layout">
-                <header className="header-style">
+                <header className="header-styl">
                     <p className="header-text">TRANSPORT SYSTEM</p>
                 </header>
                 <main className="nav-stack">
@@ -26,29 +26,6 @@ export const LandingPage = () => {
                                 </Link>
                             </div>
                             <div className="link">
-                                <Link to="/EnergyConsumption">
-                                    <BsFillLightningChargeFill className="icon" />
-                                    <br />
-                                    <p className="nav-text">Energy Consumption</p>
-                                </Link>
-                            </div>
-                            <div className="link">
-                                <Link to="/Analytics">
-                                    <SiGoogleanalytics className="icon" />
-                                    <br />
-                                    <p className="nav-text"> Analytics</p>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="navstack-layout">
-                            <div className="link">
-                                <Link to="/EnergyCosts">
-                                    <BiDollar className="icon" />
-                                    <br />
-                                    <p className="nav-text">Energy Costs</p>
-                                </Link>
-                            </div>
-                            <div className="link">
                                 <Link to="/Drivers">
                                     <GiSteeringWheel className="icon" />
                                     <br />
@@ -56,10 +33,10 @@ export const LandingPage = () => {
                                 </Link>
                             </div>
                             <div className="link">
-                                <Link to="/MapRoutes">
-                                    <FaMapMarkerAlt className="icon" />
+                                <Link to="/Analytics">
+                                    <SiGoogleanalytics className="icon" />
                                     <br />
-                                    <p className="nav-text">MapRoutes</p>
+                                    <p className="nav-text"> Analytics</p>
                                 </Link>
                             </div>
                         </div>
