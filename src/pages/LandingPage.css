@@ -1,0 +1,62 @@
+html { 
+    background: url( "https://www.fluxmagazine.com/wp-content/uploads/2020/03/Drive-Web-1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.header-style {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.header-text {
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    color: white;
+}
+
+.link {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: yellow;
+}
+
+.nav-stack{
+    background-color: rgba(14, 137, 230, 0.045);  
+    backdrop-filter: blur(50px);
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.nav-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navstack-layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-text {
+    font-size: x-large;
+    color: yellow;
+}
+
+.icon {
+    text-align: center;
+    font-size: 100px;
+    padding: 15px;
+    color: yellow;
+}
+

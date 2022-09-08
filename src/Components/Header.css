@@ -1,0 +1,12 @@
+.h-style {
+    color: black;
+}
+
+.h-background {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: rgba(202, 219, 46, 0.045);
+    backdrop-filter: blur(90px);
+    border-bottom: 10px solid yellow;
+}
