@@ -1,0 +1,24 @@
+.Body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(202, 219, 46, 0.045);
+    backdrop-filter: blur(90px);
+    margin: 20px;
+    padding: 10px;
+}
+
+.statsCard-Body {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin: 10px;
+    justify-content: center;
+}
+
+.stats-chart {
+    background-color: rgb(212, 212, 56);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+}

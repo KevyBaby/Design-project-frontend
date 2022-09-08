@@ -26,12 +26,13 @@ export const LandingPage = () => {
                                 </Link>
                             </div>
                             <div className="link">
-                                <Link to="/EnergyConsumption">
-                                    <BsFillLightningChargeFill className="icon" />
+                                <Link to="/Drivers">
+                                    <GiSteeringWheel className="icon" />
                                     <br />
-                                    <p className="nav-text">Energy Consumption</p>
+                                    <p className="nav-text"> Drivers</p>
                                 </Link>
                             </div>
+
                             <div className="link">
                                 <Link to="/Analytics">
                                     <SiGoogleanalytics className="icon" />
@@ -40,29 +41,7 @@ export const LandingPage = () => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="navstack-layout">
-                            <div className="link">
-                                <Link to="/EnergyCosts">
-                                    <BiDollar className="icon" />
-                                    <br />
-                                    <p className="nav-text">Energy Costs</p>
-                                </Link>
-                            </div>
-                            <div className="link">
-                                <Link to="/Drivers">
-                                    <GiSteeringWheel className="icon" />
-                                    <br />
-                                    <p className="nav-text"> Drivers</p>
-                                </Link>
-                            </div>
-                            <div className="link">
-                                <Link to="/MapRoutes">
-                                    <FaMapMarkerAlt className="icon" />
-                                    <br />
-                                    <p className="nav-text">MapRoutes</p>
-                                </Link>
-                            </div>
-                        </div>
+
                     </nav>
                 </main>
                 <footer>

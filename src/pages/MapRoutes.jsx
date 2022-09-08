@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
+import { Header } from "../Components/Header"
 
 export const MapRoutes = () => {
     return (
-        <main>
-            <Link to="/">Back</Link><br />
-            <h2>Welcome to the map Routes!</h2>
-        </main>
+        <>
+            <Header title="Map Routes" link="tab" />
+        </>
     )
 }
